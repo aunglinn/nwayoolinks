@@ -7,7 +7,7 @@ form: true
 ---
 
 <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
-<form name="sentMessage" id="contactForm" novalidate>
+<form name="sentMessage" id="contactForm" action="https://formspree.io/f/mgerwggj" method="POST" novalidate>
   <div class="control-group">
     <div class="form-group floating-label-form-group controls">
       <label>Name</label>
@@ -38,6 +38,7 @@ form: true
   </div>
   <br>
   <div id="success"></div>
+  <p id="my-form-status"></p>
   <div class="form-group">
     <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
   </div>
