@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Committee Representing Pyidaungsu Hluttaw (CRPH)",
+        "desc": "The Committee Representing Pyidaungsu Hluttaw has been formed by the following Representatives to resolutely perform those necessary activities and duties that have been entrusted upon us by the people, to ensure the unconditional release of those detained including the President of the Republic of the Union of Myanmar and the State Counsellor, and to conduct the regular functions of the Pyidaungsu Hluttaw.",
+        "url": "https://crphmyanmar.org/",
+        "category": ["Government"],
+        "tag": ["Government"],
+        "social":{
+            "twitter": "https://twitter.com/CrphMyanmar",
+            "facebook": "https://www.facebook.com/crph.ir.office"
+        }
+    },
+    {
+        "name": "Justice For Myanmar",
+        "desc": "A covert group of activists dedicated to improving the lives of all the people of Myanmar. We have begun to expose the systemic causes of inequality, violence, war crimes, and crimes against humanity.",
+        "url": "https://www.justiceformyanmar.org/",
+        "category": ["NGO"],
+        "tag": ["NGO", "Whistleblower"],
+        "social":{
+            "twitter": "https://twitter.com/JusticeMyanmar",
+            "facebook": "https://www.facebook.com/justiceformyanmar.org"
+        }
+    }
+]
