@@ -44,6 +44,7 @@
           $.ajax({
             url: "//formspree.io/f/{{ site.formspree }}",
             type: "POST",
+            dataType: "json",
             data: {
               name: name,
               phone: phone,
