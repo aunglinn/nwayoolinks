@@ -20,5 +20,27 @@
             "twitter": "https://twitter.com/JusticeMyanmar",
             "facebook": "https://www.facebook.com/justiceformyanmar.org"
         }
+    },
+    {
+        "name": "Three Fingers",
+        "desc": "Raise Three Fingers (formerly Art for Freedom MM) is a campaign hub founded by artists and creatives in Myanmar to bring the global art community together and highlight the unfolding human rights and humanitarian crises caused by the military coup on February 1 2021.",
+        "url": "https://www.threefingers.org/",
+        "category": ["Art"],
+        "tag": ["Art"],
+        "social":{
+            "twitter": "https://twitter.com/Raise3Fingers",
+            "facebook": "https://www.facebook.com/Raise3Fingers"
+        }
+    },
+    {
+        "name": "Art for Freedom (Myanmar) group",
+        "desc": "Art for Freedom (Myanmar) group",
+        "url": "https://www.threefingers.org/",
+        "category": ["Art"],
+        "tag": ["Art"],
+        "social":{
+            "twitter": "",
+            "facebook": "https://www.facebook.com/groups/artforfreedommyanmar/about"
+        }
     }
 ]

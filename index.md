@@ -24,7 +24,14 @@ layout: home-list-orgs
     <td><a href="{{org.url}}" target="_blank">{{ org.name }}</a></td>
     <!-- <td>{% for cat in org.category %}{{cat}}, {% endfor %}</td> -->
     <td>{% for tag in org.tag %} {{tag}}, {% endfor %}</td>
-    <td><a class="mr-2" href="{{org.social.facebook}}" target="_blank"><i class="fab fa-facebook"><span class="sr-only">Facebook</span></i></a> <a href="{{org.social.twitter}}" target="_blank"><i class="fab fa-twitter"><span class="sr-only">Twitter</span></i></a></td>
+    <td>
+     {% if org.social.facebook != "" %}
+      <a class="mr-2" href="{{org.social.facebook}}" target="_blank"><i class="fab fa-facebook"><span class="sr-only">Facebook</span></i></a> 
+     {% endif %}
+     {% if org.social.twitter != "" %}
+      <a href="{{org.social.twitter}}" target="_blank"><i class="fab fa-twitter"><span class="sr-only">Twitter</span></i></a>
+     {% endif %}
+    </td>
   </tr>
 {% endfor %}
   </tbody>
