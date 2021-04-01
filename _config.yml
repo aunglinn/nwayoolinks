@@ -25,7 +25,7 @@ author:
 formspree: mgerwggj
 description: >- # this means to ignore newlines until "baseurl:"
   This is a collection of our Spring Revolution related Organizations and Websites in one place 
-baseurl: "/nwayoolinks" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: xserowx
 github_username:  aunglinn/nwayoolinks
