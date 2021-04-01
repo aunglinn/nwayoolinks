@@ -4,7 +4,7 @@ layout: default
 
 <!-- Page Header -->
 {% if page.background %}
-<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+<header class="masthead home" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
   <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -19,6 +19,11 @@ layout: default
       </div>
     </div>
 </header>
+  {% if page.bg-artist.size > 0 %}
+  <div class="container">
+    <p class="fs-6 text-muted text-right m-0 font-italic font-weight-light">- artwork by <a href="{{ page.bg-credit-url }}">{{ page.bg-artist }}</a></p>
+  </div>
+  {% endif%}
   {% else %}
   <header>
     <div class="container mt-5">
@@ -35,8 +40,6 @@ layout: default
     </div>
   </header>
 {% endif %}
-    
-
   <div class="container">
         {{ content }}
   </div>
