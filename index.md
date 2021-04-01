@@ -22,7 +22,7 @@ layout: home-list-orgs
 
 {% for link in site.data.links %}
   <tr>
-    <td><a href="{{link.Website}}" target="_blank">{{ link.Name }}</a></td>
+    <td><a href="{{link.Website}}" target="_blank">{{ link.Name }}</a><p class="fs-6 m-0 pl-2 border-left border-warning text-muted">{{ link.Description }}</p></td>
     <!-- <td>{% for cat in org.category %}{{cat}}, {% endfor %}</td> -->
     {% assign categories = link.Categories | split: "," %}
     <td>{% for cat in categories %} <span class="badge rounded-pill bg-light text-dark">{{cat}}</span> {% endfor %}</td>
