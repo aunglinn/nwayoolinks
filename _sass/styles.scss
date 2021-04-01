@@ -10,3 +10,12 @@
 .fs-6{
     font-size: 1rem !important;
 }
+.page-heading,
+.post-heading,
+.site-heading {
+    padding: 100px 0 150px !important;
+    color: white;
+    @media only screen and (min-width: 768px) {
+        padding: 100px 0 !important;
+}
+}

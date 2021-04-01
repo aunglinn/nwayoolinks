@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home-list-orgs
-# background: '/img/bg-index.jpg'
+background: '/img/spring.jpg'
 ---
 {% if site.data.orgs %}
 <div class="row">
