@@ -5,6 +5,7 @@
 layout: home-list-orgs
 background: '/img/spring.jpg'
 ---
+<p class="text-center">If you like to help adding more entries, please submit the <a class="btn btn-success" href="https://forms.gle/rt6pLEjvBKBZqN1E8">google form here.</a> Thank you! 🙏 </p>
 {% if site.data.orgs %}
 <div class="row">
 <div class="col-12">
