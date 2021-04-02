@@ -10,8 +10,18 @@
 <script src="{{"/assets/scripts.js" | relative_url }}"></script>
 <!-- <script src="./assets/scripts.js"></script> -->
 <script>
+  function filterGlobal (elem) {
+          $('#org-list-table').DataTable().search(
+              $(elem).text()
+          ).draw();
+      }
+
   $(document).ready(function() {
       $('#org-list-table').DataTable();
+    
+      $('.category.badge').on('click', function(){
+        filterGlobal(this);
+      });
   } );
 </script>
 {% if page.url contains 'contact' %}

@@ -28,7 +28,7 @@ bg-credit-url: 'https://www.facebook.com/photo?fbid=10215620410621841&set=pcb.28
     <td><a href="{{link.Website}}" target="_blank">{{ link.Name }}</a><p class="fs-6 m-0 pl-2 border-left border-warning text-muted">{{ link.Description }}</p></td>
     <!-- <td>{% for cat in org.category %}{{cat}}, {% endfor %}</td> -->
     {% assign categories = link.Categories | split: "," %}
-    <td>{% for cat in categories %} <span class="badge rounded-pill bg-light text-dark">{{cat}}</span> {% endfor %}</td>
+    <td>{% for cat in categories %} <span class="btn btn-sm badge rounded-pill category btn-light">{{cat}}</span> {% endfor %}</td>
     <td>
      {% if link.Facebook != "" %}
       <a class="mr-2" href="{{link.Facebook}}" target="_blank"><i class="fab fa-facebook"><span class="sr-only">Facebook</span></i></a> 
