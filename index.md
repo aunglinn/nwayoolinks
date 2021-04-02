@@ -11,7 +11,7 @@ bg-credit-url: 'https://www.facebook.com/photo?fbid=10215620410621841&set=pcb.28
 {% if site.data.orgs %}
 <div class="row">
 <div class="col-12">
-<div class="data-table-wrapper">
+<div class="table-responsive">
 <table id="org-list-table" class="table display table-striped">
   <thead>
     <tr>
